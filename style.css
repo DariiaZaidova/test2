@@ -1,0 +1,53 @@
+.field {
+    height: 710px;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background: indianred;
+    position: relative;
+}
+
+.square-1, .square-2, .square-3 {
+    position: absolute;
+}
+
+.blue {
+    background: blue;
+    height: 300px;
+    width: 300px;
+
+}
+
+.square-1.blue:nth-child(2) {
+    right: 0;
+    top: 0;
+
+}
+
+.lue {
+    height: 150px;
+    width: 350px;
+    background: blue;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.square-1.lue:first-child {
+    top: 0;
+}
+
+.square-1.lue:last-child {
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
