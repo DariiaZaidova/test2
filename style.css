@@ -1,79 +1,56 @@
+.parent {
+    height: 500px;
+    width: 500px;
+    background: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
 
-.p-rel {
-    position: relative;
 }
 
-.p-abs {
-    position: absolute;
-}
-
-.p-fix {
-    position: fixed;
-}
-
-.p-sticky {
-    position: sticky;
-}
-
-.left-0 {
-    left: 0;
-}
-
-.right-0 {
-    right: 0;
-}
-
-.top-0 {
-    top: 0;
-}
-
-.bottom-0 {
-    bottom: 0;
-}
-
-
-.size-30 {
-    height: 30px;
-    width: 30px;
-}
-
-.bg-aquamarine {
-    background: aquamarine;
-}
-
-.bg-blue {
-    background: blue;
-}
-
-.bg-green {
-    background: green;
-}
-
-.bg-red {
-    background: red;
-}
-
-.size-200 {
-    height: 200vh;
-}
-
-.size-100-100 {
-    height: 100px;
-    width: 100px;
-}
-
-.bg-gray {
+.child {
+    width: 50px;
+    height: 50px;
     background: gray;
-}
-
-.size-min30 {
-    min-height: 30vh;
-}
-
-.size-100 {
-    height: 750px;
 
 }
+
+.child:first-child {
+    align-self: flex-start;
+
+}
+
+.child:last-child {
+    align-self: flex-end;
+
+}
+
+/*.position {*/
+/*    height: auto;*/
+/*    background: red;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    align-content: flex-end;*/
+/*    тут пробувала навіть напрямок column, але теж ніц не вийшло.*/
+/*    Взагалі цей position ні на що не реагує*/
+/*    навіть стерала все від джастіфі до елайн І пробувала стилі додавати...*/
+/*    ВИБАЧТЕ, АЛЕ Я ПЛАЧУ.*/
+/*    Можна мені якусь невеличку підказку, а я ще потім проаналізую*/
+/*}*/
+/*.position.child:first-child{*/
+/*   намагалась через nth теж  не працює*/
+/*}*/
+/*.position.child:last-child{*/
+
+/*}*/
+
+
+
+
+
+
 
 
 
